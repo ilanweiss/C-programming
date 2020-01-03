@@ -18,9 +18,9 @@ The first argument is a path to a readable file, and it is followed by a list of
 * Your main function should use a single array variable to read lines using the fgets function (from library stdio). You may assume that lines in the input file have no more than 200 characters (not including the newline).
 * You may also assume that the file contains no more than 1,000 lines.
 * Each line read from the file should be converted to a string list using function createStrList from your solution to 1.5.
-* Use the functions you implemented in 2.3 – 2.5.
+* Use the functions you implemented in 2.3 â€“ 2.5.
 * Make sure to free all dynamically allocated memory.
-* Instead of a file name, the user may specify “-“ to indicate that lines should be read from the standard input. For instance, sortFile - 4 2.
+* Instead of a file name, the user may specify â€œ-â€œ to indicate that lines should be read from the standard input. For instance, sortFile - 4 2.
 * Error messages should be printed to standard error.
 *****************/
 
