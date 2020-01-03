@@ -29,6 +29,7 @@ int strListLen(const char* strList) {
         return -1;
         }
     int i=0;
+//As long as we havn't hit the termenting '\0''\0' count the char.
     while (!((strList[i] == '\0' ) && (strList[i+1]=='\0'))){
         i++;
         }
